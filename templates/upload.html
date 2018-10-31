@@ -1,0 +1,11 @@
+<html>
+   <body>
+
+      <form action = "{{ url_for('face_upload') }}" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "face_image" multiple/>
+         <input type = "submit"/>
+      </form>
+
+   </body>
+</html>
